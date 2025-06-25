@@ -1,4 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information No
+﻿// See https://aka.ms/new-console-template for more information Yes
 
 namespace RuleEngine;
 
@@ -7,7 +7,7 @@ public class Program
     public static void Main()
     {
         var propertyRegistry = new PropertyRegistry();
-        //Mahendra//
+
         var stringType = new DataType<string>("String");
         stringType.RegisterOperator(new EqualsStringOperator());
         stringType.RegisterOperator(new ContainsOperator());
