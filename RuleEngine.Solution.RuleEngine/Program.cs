@@ -7,7 +7,7 @@ public class Program
     public static void Main()
     {
         var propertyRegistry = new PropertyRegistry();
-
+        //Mahendra//
         var stringType = new DataType<string>("String");
         stringType.RegisterOperator(new EqualsStringOperator());
         stringType.RegisterOperator(new ContainsOperator());
